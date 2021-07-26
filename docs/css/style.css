@@ -1,0 +1,72 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 850px;
+    padding: 0 1rem;
+}
+
+div{
+    color: #fff;
+}
+
+.intro{
+    height: 100vh;
+    width: 100%;
+    background: url("../img/background.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro__inner{
+    height: 300px;
+    background-color: rgba(58, 0, 0, 0.4);
+    border-radius: 7px;
+}
+
+.intro__title{
+    text-align: center;
+    font-size: 56px;
+}
+
+.intro__info{
+    text-align: center;
+    font-size: 30px;
+}
+
+.intro__menu{
+    text-align: center;
+}
+
+.intro__menu li{
+    font-size: 20px;
+    list-style: none;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.social-img img{
+    width: 60px;
+    margin-right: 20px;
+}
+
+.social-img:last-child img{
+    margin-right: 0;
+}
